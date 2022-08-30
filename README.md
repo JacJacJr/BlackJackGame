@@ -8,8 +8,8 @@ Project of a shell black jack game (interface in terminal)
 * [Ideas fo future](#Ideas-for-future)
 
 ## General info
-That's the boot camp project, aimed at improving skills with python classes. \n
-The game for max. 4 people and one deck. 
+That's the boot camp project, aimed at improving skills with python classes. <br />
+The game for max. 4 people and one deck. <br />
 Rules: 
 1. You play with croupier, not other players. 
 2. You should hit cards, that summery can't exceed 21 points. 
@@ -26,7 +26,7 @@ To run this project:
 3. run the file by python command
 
 ## Ideas for future
-1. Add betting opportunities
-2. Increase the number of decks depending on the number of players (number of players to the moon?)
-3. Complate the game with all cases (like Black Jack Card)
-4. Build a graphical interface (e.g. PyGame)
+* Add betting opportunities
+* Increase the number of decks depending on the number of players (number of players to the moon?)
+* Complate the game with all cases (like Black Jack Card)
+* Build a graphical interface (e.g. PyGame)
