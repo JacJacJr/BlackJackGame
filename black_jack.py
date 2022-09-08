@@ -68,12 +68,12 @@ class Player(Hand):
 		return f'{self.name}: \n{cards_value}POINTS: {self.points}\n'
 
 	def count(self):
-		as_in = False
+		ace_in = False
 		self.points=0
 		for card in self.cards:
 			if card.kind == 'A':
 				value = 11
-				as_in = True
+				ace_in = True
 				self.points += value
 			elif card.kind in ['K','Q','J']:
 				value = 10
@@ -81,7 +81,7 @@ class Player(Hand):
 			else:
 				value = int(card.kind)
 				self.points += value
-		if as_in == True and self.points > 20:
+		if ace_in == True and self.points > 20:
 			for card in self.cards:
 				if card.kind == 'A':
 					self.points = self.points - 10
