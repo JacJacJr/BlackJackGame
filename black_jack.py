@@ -89,13 +89,6 @@ class Player(Hand):
 			self.busted = True
 			print('BUSTEEEED!')
 
-	def check_player_still_in_game(self):
-		if self.stopped == True:
-			return False
-		if self.busted == True:
-			return False
-		return True
-
 	def ask(self, deck):
 		if not self.busted:
 			what_to_do = int(input(f"What's your step {self.name}? \n1 = HIT, \n0= STAND\n"))
