@@ -52,7 +52,7 @@ class Deck(Hand):
 	def deal(self, list_of_hands, number_of_cards):
 		for hands in range(number_of_cards):
 			for hand in list_of_hands:
-				this_card = self.cards.pop(0) #bez parametru
+				this_card = self.cards.pop(0) 
 				hand.add(this_card)
 
 class Player(Hand):
