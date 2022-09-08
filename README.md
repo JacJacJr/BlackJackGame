@@ -9,8 +9,9 @@ Project of a shell black jack game (interface in terminal)
 
 ## General info
 That's the boot camp project, aimed at improving skills with python classes. <br />
-The game for max. 4 people and one deck. <br />
-Rules: 
+The game for max. 4 people and one deck. 
+
+### Rules: 
 1. You play with croupier, not other players. 
 2. You should hit cards, that summery can't exceed 21 points. 
 3. After your hits, croupupier hits cards too, until he hits 17 points. 
