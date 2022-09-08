@@ -170,6 +170,7 @@ class BlackJackGame:
 				
 			for player in self.players:
 				if player.busted:
+					print(f'Croupier won with {player.name}')
 				elif croupier.points > player.points and croupier.points<21:
 					print(f'Croupier won with {player.name}')
 				else:
