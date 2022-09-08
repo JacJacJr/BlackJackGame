@@ -96,7 +96,7 @@ class Player(Hand):
 				print(f"{self.name} hit a new card!")
 				deck.give(self)
 			elif what_to_do == 0:
-				print(f"{self.name} has standed!")
+				print(f"{self.name} has stood!")
 				self.stopped = True
 		
 
@@ -173,11 +173,11 @@ while True:
 	try:
 		number_of_players = int(number_of_players)
 	except:
-		print('Valid number of players, use only numbers from range. ')
+		print('Invalid number of players, use only numbers from range. ')
 		continue
 	if 1 <= number_of_players <= 4:
 		break
 	else:
-		print('Valid range, use a number from interval 1-4')
+		print('Invalid range, use a number from interval 1-4')
 
 BlackJackGame = BlackJackGame(int(number_of_players))
