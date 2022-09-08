@@ -19,12 +19,11 @@ class Hand:
 		self.cards = []
 
 	def __str__(self):
+		if not self.cards:
+			return '<empty>'
 		cards_as_str = ''
 		for card in self.cards:
 			cards_as_str += f"{str(card)}, \n"
-		if not self.cards:
-			return '<empty>'
-		else:
 			return cards_as_str
 
 	def clear(self):
